@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: ;
+}
+.common-btn {
+  background-color: rgb(10, 106, 189);
+  padding: 2px 3px;
+  border-radius: 4px;
+  font-weigth: bold;
+  font-size: 20px;
+  color: white;
+  border: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  padding: 12px 0px;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 5px;
+  align-items: center;
+  gap: 30px;
+  font-weight: 500;
+  font color: #575757;
+}
