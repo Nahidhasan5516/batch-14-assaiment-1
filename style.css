@@ -1,14 +1,14 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: ;
+  font-family: 'Fira Sans', sans-serif;
 }
 .common-btn {
-  background-color: rgb(10, 106, 189);
-  padding: 2px 3px;
-  border-radius: 4px;
-  font-weigth: bold;
-  font-size: 20px;
+  background-color: rgb(13, 77, 227);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 22px;
   color: white;
   border: none;
 }
@@ -19,13 +19,57 @@ nav {
   margin: auto;
   padding: 12px 0px;
 }
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  gap: 5px;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
   font-weight: 500;
-  font color: #575757;
+  color: 575757;
 }
+ul li a {
+  text-decoration: none;
+  color: #575757;
+}
+.miting {
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  background-image: url('./images/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.miting-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0);
+}
+.miting-contant h1 {
+  color: #fffefe !important;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.miting-contant p {
+  color: white !important;
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+/* .common-btn:hover {
+  background-color: antiquewhite;
+} */
