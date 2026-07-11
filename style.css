@@ -83,9 +83,36 @@ ul li a {
 }
 .speaker-content {
   text-align: center;
+  margin-bottom: 40px;
 }
-.speaker-contenth1 {
+.speaker-content h1 {
   font-size: 40px;
   font-weight: bold;
   margin: 0;
+}
+
+.spaker-card-contener {
+  max-width: 1200px;
+  margin: 100px auto;
+  padding: 0 20px;
+}
+.spaker-card {
+  margin: 0 10px;
+}
+.spaker-card-contener {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin: 0 50px;
+}
+.spaker-card img {
+  width: 100%;
+  display: block;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+.spaker-card h6 {
+  color: #2563eb;
 }
