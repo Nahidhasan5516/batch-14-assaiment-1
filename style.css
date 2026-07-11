@@ -11,18 +11,20 @@
   font-size: 22px;
   color: white;
   border: none;
+  cursor: pointer;
 }
 nav {
   display: flex;
   justify-content: space-between;
-  max-width: 1200px;
+  max-width: 1050px;
   margin: auto;
   padding: 12px 0px;
+  cursor: pointer;
 }
 .logo {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
 }
 ul {
   display: flex;
@@ -39,7 +41,7 @@ ul li a {
 }
 .miting {
   position: relative;
-  width: 100%;
+  width: 1300px;
   min-height: 500px;
   background-image: url('./images/banner.jpg');
   background-size: cover;
@@ -63,13 +65,27 @@ ul li a {
   font-size: 60px;
   font-weight: 700;
   margin-bottom: 15px;
+  transform: translateY(-90px);
 }
 .miting-contant p {
   color: white !important;
   font-size: 20px;
   line-height: 1.6;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
+  max-width: 700px;
+  transform: translateY(-80px);
 }
-/* .common-btn:hover {
-  background-color: antiquewhite;
-} */
+.miting-common-btn {
+  transform: translateY(100px);
+}
+.speaker {
+  padding: 50px 0;
+}
+.speaker-content {
+  text-align: center;
+}
+.speaker-contenth1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+}
