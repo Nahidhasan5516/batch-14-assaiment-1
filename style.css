@@ -263,3 +263,44 @@ nav ul li a {
   margin-bottom: 15px;
   box-sizing: border-box;
 }
+footer.end {
+  position: static;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background: #0d1b2a;
+  color: white;
+  text-align: left;
+}
+.border {
+  border: none;
+  border-top: 1px solid rgba(#0d1b2a);
+  width: 100%;
+  margin: 15px 0;
+}
+.end-logo {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin-left: auto;
+}
+.end-logo img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  margin: 20px;
+}
+footer.end section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.left-logo {
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.left-logo p {
+  text-align: center;
+}
