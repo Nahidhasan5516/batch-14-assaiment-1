@@ -197,3 +197,69 @@ nav ul li a {
   color: #0d1b2a;
   border: 1.5px solid #0d1b2a;
 }
+.online-miting-heading {
+  text-align: center;
+}
+.online-miting-heading h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.online-miting-heading h3 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.online-miting-heading p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.miting-box {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.left-box {
+  width: 400px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  border-radius: 1px solid #0d1b2a;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  line-height: 2.5;
+}
+.left-box {
+  text-align: center;
+}
+.left-box ul {
+  display: inline-block;
+  text-align: left;
+}
+.outline-btn {
+  display: block;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.right-box {
+  width: 400px;
+  background: #0d1b2a;
+  color: white;
+  padding: 30px;
+  border-radius: 15px;
+  border-radius: 1px solid #0d1b2a;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  line-height: 3;
+}
+.right box common-btn {
+  margin-top: 0px;
+}
+.right-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
