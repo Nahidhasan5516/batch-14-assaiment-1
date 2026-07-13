@@ -1,8 +1,9 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
+
 .common-btn {
   background-color: rgb(13, 77, 227);
   padding: 10px 20px;
@@ -13,6 +14,18 @@
   border: none;
   cursor: pointer;
 }
+.outline-btn {
+  background-color: white;
+  width: 260px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 22px;
+  color: rgb(13, 77, 227);
+  border: 1.5px solid rgb(13, 77, 227);
+  cursor: pointer;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -26,7 +39,7 @@ nav {
   align-items: center;
   gap: 5px;
 }
-ul {
+nav ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -35,13 +48,15 @@ ul {
   font-weight: 500;
   color: 575757;
 }
-ul li a {
+nav ul li a {
   text-decoration: none;
   color: #575757;
 }
 .miting {
   position: relative;
-  width: 1300px;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
   min-height: 500px;
   background-image: url('./images/banner.jpg');
   background-size: cover;
@@ -83,27 +98,23 @@ ul li a {
 }
 .speaker-content {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .speaker-content h1 {
   font-size: 40px;
   font-weight: bold;
   margin: 0;
 }
-
-.spaker-card-contener {
-  max-width: 1200px;
-  margin: 100px auto;
-  padding: 0 20px;
-}
 .spaker-card {
   margin: 0 10px;
 }
 .spaker-card-contener {
+  max-width: 1200px;
+  margin: 100px auto;
+  padding: 0 20px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
-  margin: 0 50px;
+  gap: 20px;
 }
 .spaker-card img {
   width: 100%;
@@ -111,8 +122,78 @@ ul li a {
   height: auto;
   object-fit: cover;
   border-radius: 12px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .spaker-card h6 {
   color: #2563eb;
+}
+.price {
+  padding: 50px 0;
+}
+.price-tag {
+  text-align: center;
+  margin-top: -70px;
+  margin-bottom: -20px;
+}
+.price-tag h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.price-tag h6 {
+  font-size: 13px;
+  padding-top: 10px;
+}
+.card {
+  max-width: 1200;
+  margin: 50px 10px;
+  padding: 30px;
+  border: 1px solid #575757;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background: #fffefe;
+}
+
+.card {
+  width: 260px;
+  height: 350px;
+  padding: 30px;
+  border: 1px solid;
+  border-radius: 15px;
+}
+.price {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card.pro .common-btn {
+  width: 260px;
+}
+.card.pro {
+  background-color: #0d1b2a;
+  color: #ffffff !important;
+}
+.pro {
+  transform: translateY(-10px);
+}
+.card ul li {
+  line-height: 1.8;
+}
+.card p {
+  font-size: 13px;
+  color: #888888;
+}
+.card h5 {
+  font-size: 10px;
+  color: #888888;
+}
+.card.pro h5 {
+  color: #93c5fd;
+}
+.card button {
+  margin-top: 30px;
+}
+.card.team .outline-btn {
+  color: #0d1b2a;
+  border: 1.5px solid #0d1b2a;
 }
