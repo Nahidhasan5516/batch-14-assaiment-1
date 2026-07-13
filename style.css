@@ -301,6 +301,8 @@ footer.end section {
   display: flex;
   flex-wrap: wrap;
 }
-.left-logo p {
-  text-align: center;
+.senter {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
